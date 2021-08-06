@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 100vh;
+    background: #2D25A0;
+}
+
+header .container {
+    margin: 0px 10%;
+}
+
+header .container nav {
+    min-height: 50px;
+    background-color: blueviolet;
+}
+
+header .container .header-layout {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+header .container .header-left .header-title h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+header .container .header-left .button {
+    padding: 10px 24px;
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .header-left .button a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+header .container .header-left .button i {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+header .container .header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .header-right img {
+    object-fit: cover;
+    max-height: 400px;
+    padding: 10px;
+}
+
+/* Player Section Start */
+.player-section {
+    margin-top: 70px;
+
+}
+
+.player-section .container {
+    margin: 0px 10%;
+}
+
+.player-section .container .player-info {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.player-section .container .player-info .player-content {
+    min-height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.player-section .container .player-info .player-content img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-section .container .player-info .player-content h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    margin: 10px 0px;
+}
+
+.player-section .container .player-info .player-content p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
